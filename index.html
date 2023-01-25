@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cv Front end</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Sergio Ottati</h1>
+      <p>Front end developer</p>
+    </header>
+
+    <nav class="navBar">
+      <a href="#miProfile">SOBRE MI</a>
+      <a href="#projects">PROYECTOS</a>
+      <a href="#socials">CONTACTO</a>
+    </nav>
+    <main>
+      <section class="miProfile" id="miProfile">
+        <h2>Sobre mi</h2>
+        <p>
+          Como va, mi nombre es Sergio Ottati, tengo 32 años y soy desarrolador
+          front end, amante de la tecnologia. Siempre dispuesto a aprender y
+          absorver nuevos conocimientos.
+        </p>
+      </section>
+
+      <section class="cursos">
+        <h2>Algunos de mis cursos hasta el momento</h2>
+        <div class="cursosDiv">
+          <div>
+            <p>Argentina Programa:</p>
+            <p>Curso #seProgramar | Octubre 2021 - Diciembre 2021</p>
+          </div>
+
+          <div>
+            <p>Telecom Argentina | EducaciónIT:</p>
+            <p>Curso Desarrollo Front End React | Mayo 2022 - Noviembre 2022</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="tecno">
+        <h2>Tecnologías</h2>
+
+        <div class="iconTecno">
+          <div>
+            <img
+              src="img/317755_badge_html_html5_achievement_award_icon.png"
+              alt=""
+            />
+            <img
+              src="img/317756_badge_css_css3_achievement_award_icon.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img src="img/2993773_git_social media_icon.png" alt="" />
+            <img src="img/Js.png" alt="" />
+          </div>
+
+          <img src="img/7423888_react_react native_icon.png" alt="" />
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2>Proyectos en los que estuve trabajando</h2>
+        <div class="projContainer">
+          <a href=""><img src="img/Encriptador html-css-js.jpg" alt="" /></a>
+          <a href=""
+            ><img
+              src="img/interactive-card-details-form-with-html-css-js.jpg"
+              alt=""
+          /></a>
+          <a href=""><img src="img/Qr code with html-css.png" alt="" /></a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="socials">
+      <h2>Contacto</h2>
+
+      <form action="post">
+        <label for="name">
+          Nombre
+          <input type="text" id="name" name="name" required />
+        </label>
+        <label for="email">
+          Email
+          <input type="email" id="email" name="email" required />
+        </label>
+        <label for="messeage">
+          Escriba aquí su mensaje
+          <textarea
+            name="messeage"
+            id="messeage"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </label>
+      </form>
+
+      <div class="socials">
+        <a href=""><img src="img/whatsapp.svg" alt="" /></a>
+        <a href=""><img src="img/facebook-2.svg" alt="" /></a>
+        <a href=""><img src="img/twitter.svg" alt="" /></a>
+        <a href=""><img src="img/github.png" alt="" /></a>
+        <a href=""><img src="img/linkedin-square.svg" alt="" /></a>
+      </div>
+    </footer>
+  </body>
+</html>
