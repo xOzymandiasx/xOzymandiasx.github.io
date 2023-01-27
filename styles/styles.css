@@ -33,7 +33,7 @@ button {
 h1 {
   text-align: center;
   font-size: 4rem;
-  margin: 1rem 0 2rem;
+  margin: 1rem 0;
 }
 
 header p {
@@ -44,7 +44,6 @@ p {
   text-align: center;
   font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
-  line-height: 30px;
 }
 
 section {
@@ -79,7 +78,7 @@ a:hover {
 }
 
 h2 {
-  margin: 2rem 0rem;
+  margin: 2rem 0.5rem;
   padding: 0.5em;
   background-color: #51efa2;
   border-radius: 25px;
