@@ -7,6 +7,7 @@
 
 html {
   background-color: rgb(246, 246, 246);
+  scroll-behavior: smooth;
 }
 
 * {
@@ -17,7 +18,7 @@ html {
 
 .solid,
 h2,
-.navBar {
+.navBar, button {
   box-shadow: 6px 7px 20px 3px rgb(61 61 61 / 50%);
 }
 
@@ -156,6 +157,7 @@ form {
 }
 
 label {
+  color: rgb(79, 79, 229);
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
@@ -170,7 +172,7 @@ button {
   text-align: center;
 }
 
-input {
+input, button {
   width: 24.5rem;
   height: 2rem;
   padding: 0 1rem;
@@ -202,6 +204,17 @@ textarea {
 textarea:focus {
   background-color: #51efa2;
   outline: 2px solid rgb(79, 79, 229);
+}
+
+button {
+  background-color: #51efa2;
+  margin: 0.3rem;
+}
+
+button:hover {
+  background-color: rgb(79, 79, 229);
+  color: #51efa2;
+  transition: background-color 0.4s ease;
 }
 
 .socials {
