@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cv Front end</title>
     <link rel="stylesheet" href="styles/styles.css" />
+    <!-- FavIcon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/profile.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/profile.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/profile.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/img/profile.png" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
 
   <body>
@@ -15,7 +23,7 @@
     </header>
 
     <nav class="navBar">
-      <a href="#miProfile">SOBRE MI</a>
+      <a href="#miProfile">SOBRE MÍ</a>
       <a href="#projects">PROYECTOS</a>
       <a href="#socials">CONTACTO</a>
     </nav>
@@ -24,12 +32,15 @@
 
     <main>
       <section class="miProfile" id="miProfile">
-        <h2>Sobre mi</h2>
-        <p>
-          Como va, mi nombre es Sergio Ottati, tengo 32 años y soy desarrolador
-          front end, amante de la tecnologia. Siempre dispuesto a aprender y
-          absorver nuevos conocimientos.
-        </p>
+        <h2>Sobre mí</h2>
+        <div class="aboutMe">
+          <img src="img/Sergioo.jpg" alt="My profile photo" />
+          <p>
+            Como va, mi nombre es Sergio Ottati, tengo 32 años y soy
+            desarrolador front end, amante de la tecnologia. Soy una persona
+            siempre dispuesta a aprender y absorver nuevos conocimientos.
+          </p>
+        </div>
       </section>
 
       <hr class="solid" />
@@ -58,19 +69,25 @@
           <div>
             <img
               src="img/317755_badge_html_html5_achievement_award_icon.png"
-              alt=""
+              alt="html5 logo"
             />
+            <h3>HTML5</h3>
             <img
               src="img/317756_badge_css_css3_achievement_award_icon.png"
-              alt=""
+              alt="css3 logo"
             />
+            <h3>CSS3</h3>
           </div>
           <div>
-            <img src="img/2993773_git_social media_icon.png" alt="" />
-            <img src="img/Js.png" alt="" />
+            <img src="img/2993773_git_social media_icon.png" alt="git logo" />
+            <h3>Git</h3>
+            <img src="img/Js.png" alt="javascript logo" />
+            <h3>JavaScript</h3>
           </div>
-
-          <img src="img/7423888_react_react native_icon.png" alt="" />
+          <div>
+            <img src="img/7423888_react_react native_icon.png" alt="react logo" />
+            <h3>React</h3>
+          </div>
         </div>
       </section>
 
@@ -79,13 +96,19 @@
       <section class="projects" id="projects">
         <h2>Proyectos en los que estuve trabajando</h2>
         <div class="projContainer">
-          <a href="https://encriptador-topaz.vercel.app/" target="_blank"><img src="img/Encriptador html-css-js.png" alt="" /></a>
-          <a href="https://interactive-card-details-form-with-html-css-js.vercel.app/" target="_blank"
+          <a href="https://encriptador-topaz.vercel.app/" target="_blank"
+            ><img src="img/Encriptador html-css-js.png" alt="encrypter proyect"
+          /></a>
+          <a
+            href="https://interactive-card-details-form-with-html-css-js.vercel.app/"
+            target="_blank"
             ><img
               src="img/interactive-card-details-form-with-html-css-js.png"
-              alt=""
+              alt="interactive card details proyect"
           /></a>
-          <a href="https://qr-code-whit-html-css.vercel.app/" target="_blank"><img src="img/Qr code with html-css.png" alt="" /></a>
+          <a href="https://qr-code-whit-html-css.vercel.app/" target="_blank"
+            ><img src="img/Qr code with html-css.png" alt="qr code proyect"
+          /></a>
         </div>
       </section>
     </main>
@@ -118,19 +141,19 @@
 
       <div class="socials">
         <a href="https://api.whatsapp.com/send?phone=1131175278" target="_blank"
-          ><img src="img/whatsapp.svg" alt=""
+          ><img src="img/whatsapp.svg" alt="whatsapp number logo"
         /></a>
         <a href="https://www.facebook.com/sergio.ottati/" target="_blank"
-          ><img src="img/facebook-2.svg" alt=""
+          ><img src="img/facebook-2.svg" alt="facebook"
         /></a>
         <a href="https://twitter.com/Caramoon1990" target="_blank"
-          ><img src="img/twitter.svg" alt=""
+          ><img src="img/twitter.svg" alt="twitter"
         /></a>
         <a href="https://github.com/xOzymandiasx" target="_blank"
-          ><img src="img/github.png" alt=""
+          ><img src="img/github.png" alt="github"
         /></a>
         <a href="https://linkedin.com/in/sergio-ottati" target="_blank"
-          ><img src="img/linkedin-square.svg" alt=""
+          ><img src="img/linkedin-square.svg" alt="linkedin"
         /></a>
       </div>
     </footer>
